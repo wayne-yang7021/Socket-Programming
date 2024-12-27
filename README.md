@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a P2P (peer-to-peer) transaction program! In this project, I implement secure communications and transactions using socket programming with OpenSSL for encryption and decryption. The program supports both server-side and client-side functionalities, ensuring data confidentiality and authenticity through public and private key cryptography.
+This is a P2P (peer-to-peer) transaction program using C++! In this project, I implement secure communications and transactions using socket programming with OpenSSL for encryption and decryption. The program supports both server-side and client-side functionalities, ensuring data confidentiality and authenticity through public and private key cryptography.
 
 ## How to Execute the program
 
@@ -39,15 +39,15 @@ To start the server, execute the following command:
  ```
  ./server <port_number>
  ``` 
-Replace <port_number> with the port you want the server to listen on (e.g., 8080).
+Replace `<port_number>` with the port you want the server to listen on (e.g., 8080).
 
 #### Start the Client
 To start the client, execute the following command:
 ```
 ./client <IP address> <port_number>
 ``` 
-Replace <IP_address> with the server's IP address (e.g., 127.0.0.1 for localhost). 
-Replace <port_number> with the port number the server is listening on.
+Replace `<IP_address>` with the server's IP address (e.g., 127.0.0.1 for localhost). 
+Replace `<port_number>` with the port number the server is listening on.
 
 ### 5.Multi-Client Support
 You can open multiple terminals and run the client program simultaneously to test multi-client functionality. Each client will have its own session and can perform operations such as:
@@ -58,7 +58,7 @@ You can open multiple terminals and run the client program simultaneously to tes
 4. Performing P2P transactions.
 
 ### 6.Features
-**Secure Communication**: TLS/SSL ensures secure communication between the server and clients.
-**Public/Private Key Cryptography**: RSA is used for encrypting and decrypting messages and transactions.
-**P2P Transactions**: Clients can interact directly with each other for secure payments.
-**Multi-Client Support**: The server can handle multiple clients concurrently.
+**Secure Communication**: TLS/SSL ensures secure communication between the server and clients. <br>
+**Public/Private Key Cryptography**: RSA is used for encrypting and decrypting messages and transactions. <br>
+**P2P Transactions**: Clients can interact directly with each other for secure payments. <br>
+**Multi-Client Support**: The server can handle multiple clients concurrently. <br>

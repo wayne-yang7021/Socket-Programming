@@ -36,13 +36,17 @@ Client side: g++ -std=c++17 -o client client.cpp -I/opt/homebrew/opt/openssl@3/i
 ### 4. Run the Program
 #### Start the Server
 To start the server, execute the following command:
- ```./server <port_number>``` \\
+ ```
+ ./server <port_number>
+ ``` 
 Replace <port_number> with the port you want the server to listen on (e.g., 8080).
 
 #### Start the Client
 To start the client, execute the following command:
-```./client <IP address> <port_number>```  \\
-Replace <IP_address> with the server's IP address (e.g., 127.0.0.1 for localhost). \\
+```
+./client <IP address> <port_number>
+``` 
+Replace <IP_address> with the server's IP address (e.g., 127.0.0.1 for localhost). 
 Replace <port_number> with the port number the server is listening on.
 
 ### 5.Multi-Client Support
